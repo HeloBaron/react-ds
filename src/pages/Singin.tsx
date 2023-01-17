@@ -15,7 +15,7 @@ export function SignIn() {
         event.preventDefault()
 
         await axios.post('/sessions', {
-            email: 'helo.athayde@gmail.com',
+            email: 'hello@gmail.com',
             password: '12345678'
         })
 
